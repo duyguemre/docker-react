@@ -5,7 +5,7 @@ services:
 
 
 before_install:
-  - docer build -t duyguemre/docker-react -f Dockerfile.dev .
+  - docker build -t duyguemre/docker-react -f Dockerfile.dev .
 
 
 script:
